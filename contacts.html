@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8" />
 	<!-- Site Title -->
-	<title>Contacts</title>
+	<title>SCAR - Contactos</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto:400,400i,500,700" rel="stylesheet" />
 	<!--
@@ -48,31 +48,13 @@
 
 				<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 					<ul class="navbar-nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="courses.html">Courses</a></li>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="courses.html">Actividades</a></li>
+						<li><a href="RaP.html">Robot al Parque</a></li>
+						<li><a href="aviones.html">Aviones de Papel</a></li>
+						<li><a href="contacts.html">Contacto</a></li>
 						<!-- Dropdown -->
-						<li class="dropdown">
-							<a class="dropdown-toggle" href="#" data-toggle="dropdown">
-								Pages
-							</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="elements.html">Elements</a>
-								<a class="dropdown-item" href="course-details.html">Course Details</a>
-							</div>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" href="#" data-toggle="dropdown">
-								Blog
-							</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="blog-home.html">Blog Home</a>
-								<a class="dropdown-item" href="blog-single.html">Blog Details</a>
-							</div>
-						</li>
-						<li><a href="contacts.html">Contacts</a></li>
-
-						<li>
+						
 							<button class="search">
 								<span class="lnr lnr-magnifier" id="search"></span>
 							</button>
@@ -99,18 +81,11 @@
 			<div class="row justify-content-center align-items-center">
 				<div class="col-lg-12 banner-right">
 					<h1 class="text-white">
-						Contacts
+						Contacto
 					</h1>
-					<p class="mx-auto text-white  mt-20 mb-40">
-						In the history of modern astronomy, there is probably no one greater leap forward than the building.
+					<p class="mx-auto text mt-20 mb-40">
+						<h2>Organizadores SCAR</h2>
 					</p>
-					<div class="link-nav">
-						<span class="box">
-							<a href="index.html">Home </a>
-							<i class="lnr lnr-arrow-right"></i>
-							<a href="contacts.html">Contacts</a>
-						</span>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -122,15 +97,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
-				<div class="col-lg-4 d-flex flex-column address-wrap">
+				<div class="col-lg-5 d-flex flex-column address-wrap">
 					<div class="single-contact-address d-flex flex-row">
 						<div class="icon">
 							<span class="lnr lnr-home"></span>
 						</div>
 						<div class="contact-details">
-							<h5>Binghamton, New York</h5>
+							<h5>
+								Colombia, Bogotá
+							</h5>
+							<h6> 
+								Universidad Distrital Francisco José de Caldas <br>
+								Facultad de Ingeniería
+							</h6>
 							<p>
-								4343 Hinkle Deegan Lake Road
+								Cra. 7 No 40B - 53 <br>
+								Salon 402 - Edificio Sabio Caldas <br>
+								Sala Kirmman
 							</p>
 						</div>
 					</div>
@@ -139,8 +122,15 @@
 							<span class="lnr lnr-phone-handset"></span>
 						</div>
 						<div class="contact-details">
-							<h5>00 (958) 9865 562</h5>
-							<p>Mon to Fri 9am to 6 pm</p>
+							<h5>
+								(57) 311 898 7235 <br>
+								(57) 318 483 0813 <br>
+								(57) 319 425 0660 <br>
+								(57) 300 5725927 <br>
+							</h5>
+							<p>
+								Lunes a viernes 9 a.m. a 6 p.m.
+							</p>
 						</div>
 					</div>
 					<div class="single-contact-address d-flex flex-row">
@@ -148,32 +138,41 @@
 							<span class="lnr lnr-envelope"></span>
 						</div>
 						<div class="contact-details">
-							<h5>support@colorlib.com</h5>
-							<p>Send us your query anytime!</p>
+							<h5>
+								casud@udistrital.edu.co <br>
+								rasud@udistrital.edu.co <br>
+								aessud@udistrital.edu.co <br>
+								embud@udistrital.edu.co <br>
+							</h5>
+							<p>
+								Envíanos tu consulta en cualquier momento!
+							</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-8">
+				<div class="col-lg-7">
 					<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
 						<div class="row">
-							<div class="col-lg-6 form-group">
-								<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+							<div class="col-lg-7 form-group">
+								<input name="name" placeholder="Escriba su nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Escriba su nombre'"
 								 class="common-input mb-20 form-control" required="" type="text">
 
-								<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-								 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
+								<input name="email" placeholder="Escriba su correo electrónico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+								 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Escriba su correo electrónico'" class="common-input mb-20 form-control"
 								 required="" type="email">
 
-								<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'"
+								 <input name="celular" placeholder="Escriba numero de contacto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Escriba numero de contacto'"
+								  class="common-input mb-20 form-control" required="" type="number">
+
+								<input name="subject" placeholder="Escriba el asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Escriba el asunto'"
 								 class="common-input mb-20 form-control" required="" type="text">
+
+								<textarea class="common-textarea form-control" name="message" placeholder="Escriba el mensaje" onfocus="this.placeholder = ''"
+								 onblur="this.placeholder = 'Escriba el mensaje'" required=""></textarea>
 							</div>
-							<div class="col-lg-6 form-group">
-								<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''"
-								 onblur="this.placeholder = 'Enter Messege'" required=""></textarea>
-							</div>
-							<div class="col-lg-12">
+							<div class="col-lg-7">
 								<div class="alert-msg" style="text-align: left;"></div>
-								<button class="btn" style="float: right;">Send Message</button>
+								<button class="btn" style="float: right;">Enviar Mensaje</button>
 							</div>
 						</div>
 					</form>
